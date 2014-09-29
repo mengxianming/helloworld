@@ -1,6 +1,12 @@
 package net.suntec.helloworld.bean;
 
-public class APIResult {
+import java.io.Serializable;
+
+public class APIResult implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String code;
 	private Object data;
 	
